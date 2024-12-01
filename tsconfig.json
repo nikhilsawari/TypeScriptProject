@@ -9,13 +9,9 @@
         ],
         "types": [
             "node",
-            "jasmine",
             "@wdio/globals/types",
-            "expect-webdriverio/jasmine",
-            "@wdio/jasmine-framework",
-            "@wdio/sauce-service",
-            "@wdio/browserstack-service",
-            "@wdio/appium-service"
+            "expect-webdriverio",
+            "@wdio/mocha-framework"
         ],
         "skipLibCheck": true,
         "noEmit": true,
@@ -29,6 +25,6 @@
     },
     "include": [
         "test",
-        "config/wdio.conf.ts"
+        "wdio.conf.ts"
     ]
 }
